@@ -21,7 +21,7 @@ $ lspci | grep -i NVIDIA <br/>
 
 $ CUDA_REPO_PKG=cuda-repo-ubuntu1604_8.0.44-1_amd64.deb <br/>
 
-$ wget -O /tmp/${CUDA_REPO_PKG} http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/${CUDA_REPO_PKG} <br/>
+$ wget -O /tmp/${CUDA_REPO_PKG} http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/${CUDA_REPO_PKG}
 
 $ sudo dpkg -i /tmp/${CUDA_REPO_PKG} <br/>
 
